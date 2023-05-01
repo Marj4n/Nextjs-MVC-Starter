@@ -19,6 +19,8 @@ module.exports = {
     "^@/src/posts/(.*)$",
     "^@/src/utils/(.*)$",
     "^@/src/page/(.*)$",
+    "^@/src/server/controllers/(.*)$",
+    "^@/src/server/middlewares/(.*)$",
     "",
     "^[./src/(.*)$]",
   ],

@@ -84,6 +84,11 @@
 }
 
 /* Post styles */
+.main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+}
 
 .prose .anchor {
   @apply absolute invisible no-underline;
@@ -105,7 +110,7 @@
 
 .prose .anchor:after {
   @apply text-gray-300 dark:text-gray-700;
-  content: '#';
+  content: "#";
 }
 
 .prose *:hover > .anchor {
@@ -192,8 +197,8 @@
   @apply text-yellow-500;
 }
 
-code[class*='language-'],
-pre[class*='language-'] {
+code[class*="language-"],
+pre[class*="language-"] {
   @apply text-gray-800 dark:text-gray-50;
 }
 
@@ -224,6 +229,6 @@ pre {
   }
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: 'rlig' 1, 'calt' 1;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
