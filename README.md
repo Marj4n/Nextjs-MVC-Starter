@@ -9,7 +9,8 @@ A Next.js starter for your next blog or personal site. Built with:
 - Formatting with [Prettier](https://prettier.io/)
 - Database ORM [Prisma](https://www.prisma.io/)
 
-👀 [View the Live Demo](https://nextjs-typescript-mdx-blog-starter.vercel.app/)
+
+👀 (Comming soon) [View the Live Demo](#) 
 
 ## Features
 
@@ -21,6 +22,7 @@ A Next.js starter for your next blog or personal site. Built with:
 - [x] Prisma
 - [x] NextJS API
 - [x] MVC Pattern
+- [-]  Auth
 
 ## Usage
 
