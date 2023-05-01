@@ -22,7 +22,7 @@ A Next.js starter for your next blog or personal site. Built with:
 - [x] Prisma
 - [x] NextJS API
 - [x] MVC Pattern
-- [-]  Auth
+- [ ] Auth
 
 ## Usage
 
