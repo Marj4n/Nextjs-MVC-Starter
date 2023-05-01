@@ -184,7 +184,7 @@ export const Index = ({ results }: IndexProps): JSX.Element => {
           onClick={() => setAddModalVisibility(!showAddModal)}
           className="gap-2"
         >
-          Add Note <span className="text-3xl pb-1">+</span>
+          Add Note <span className="pb-1 text-3xl">+</span>
         </Button>
         <div className="mt-10 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {notes?.map((note: NoteType, index: Key | null | undefined) => (

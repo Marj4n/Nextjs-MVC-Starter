@@ -7,11 +7,7 @@ import { useToast } from "@/components/ui/use-toast"
 export const About = (): JSX.Element => {
   const { toast } = useToast()
   return (
-    <Layout
-      customMeta={{
-        title: "About - Marjannnnnn",
-      }}
-    >
+    <Layout>
       <h1>About Page</h1>
       <p>Welcome to the about page</p>
       <h2 className="pb-4">This is toast :</h2>

@@ -53,7 +53,7 @@ const EditModal = ({
                 Edit Note
               </h3>
               <Button
-                className="text-2xl leading-none font-semibold outline-none focus:outline-none dark:text-black"
+                className="text-2xl font-semibold leading-none outline-none focus:outline-none dark:text-black"
                 onClick={() => setUpdateModalVisibility(!showUpdateModal)}
               >
                 <X />
